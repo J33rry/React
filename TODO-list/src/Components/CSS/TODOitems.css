@@ -1,0 +1,38 @@
+/* .not-tick {
+    height: 20px;
+    width: 20px;
+}
+.tick {
+    height: 20px;
+    width: 20px;
+    /* background: #ff6739; */
+/* border-radius: 50%;
+} */
+.cross {
+    /* height: 20px;
+    width: 20px; */
+    /* background: #ff6739; */
+    border-radius: 50%;
+    cursor: pointer;
+    padding-right: 25px;
+}
+.todoitems {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+    padding: 16px 0px;
+}
+.todoitems-container {
+    display: flex;
+}
+.todoitems-text {
+    padding-left: 16px;
+    font-size: 22px;
+    font-weight: 600;
+    color: #404040;
+    /* justify-items: center; */
+}
+.none {
+    text-decoration: line-through solid #adadad 3px;
+}
